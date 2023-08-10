@@ -33,8 +33,8 @@
             transform: scale(1.03);
         }
 
-        .card-img-top {
-            object-fit: cover;
+        .zoom-img {
+            object-fit:contain;
             height: 200px;
         }
 
