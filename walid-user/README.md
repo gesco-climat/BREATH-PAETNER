@@ -6,14 +6,14 @@ Bienvenue dans l'application web de gestion d'utilisateurs basée sur Laravel ! 
 
 Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur votre machine :
 
-- PHP (version X.X.X)
+- PHP (version 8.2)
 - Composer
-- Serveur Web (comme Apache ou Nginx)
+- Serveur Web (comme Apache)
 - Base de données MySQL
 
 ## Installation
 
-1. Clonez ce dépôt sur votre machine : `git clone https://github.com/votre-utilisateur/nom-du-repo.git`
+1. Clonez ce dépôt sur votre machine : `git clone https://github.com/votre-utilisateur/https://github.com/gesco-climat/BREATH-PAETNER/tree/main`
 2. Accédez au répertoire du projet : `cd nom-du-repo`
 3. Installez les dépendances avec Composer : `composer install`
 4. Copiez le fichier `.env.example` en `.env` et configurez les paramètres de base de données.
@@ -46,12 +46,8 @@ Si vous souhaitez contribuer à ce projet, n'hésitez pas à soumettre des pull 
 
 ## Auteur
 
-Ce projet a été développé avec amour par [Votre Nom].
+Ce projet a été développé avec amour par [Djellali walid].
 
-## Licence
 
-Ce projet est sous licence [Licence]. Voir le fichier `LICENSE` pour plus d'informations.
-
----
 
 C'est tout ! Vous êtes prêt à utiliser cette application pour gérer les utilisateurs de manière simple et efficace. N'hésitez pas à explorer toutes les fonctionnalités et à nous faire part de vos commentaires. Bonne utilisation !
