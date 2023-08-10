@@ -60,6 +60,10 @@
                 <input type="text" name="last_name" class="form-control" required>
             </div>
             <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group mb-3">
                 <label for="age">Age</label>
                 <input type="number" name="age" class="form-control" required>
             </div>
@@ -72,9 +76,9 @@
                 <br>
                 <input type="file" name="photo" class="form-control-file">
             </div>
-            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+            <button type="submit" class="btn btn-primary mb-3">Ajouter</button>
         </form>
-        <a href="user.blade.php" class="btn btn-primary mt-3">View Users</a>
+        <a href="{{ route('users.index') }}" class="btn btn-primary mt-3">Voir utilisateurs</a>
 
     </div>
     <!-- Include any JavaScript or script tags here -->

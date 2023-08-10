@@ -17,10 +17,13 @@ public function store(Request $request)
     $validatedData = $request->validate([
         'first_name' => 'required',
         'last_name' => 'required',
+        'email' => 'required|email',
         'age' => 'required|integer',
         'bio' => 'required',
         'photo' => 'image|mimes:jpeg,png,jpg,gif|max:2048', // format d'images
     ]);
+    
+
 
     if ($request->hasFile('photo')) {
         $photoPath = $request->file('photo')->store('photos', 'public');
@@ -29,6 +32,7 @@ public function store(Request $request)
 
     UserInfo::create($validatedData);
 
-    return redirect('/user/create')->with('success', 'User information has been stored.');
+    return redirect('/user/create')->with('success', 'utilisateur a ete ajouter');
 }
+
 }
